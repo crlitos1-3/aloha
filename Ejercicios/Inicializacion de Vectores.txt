@@ -1,0 +1,14 @@
+Arreglo o vectores
+
+Un conjunto de espacios en memoria 
+Index++ (Aumento en 1)
+
+Declaracion Buleana=1 y 0(verdadero o falso)}
+
+El DOM es un modelo de objetos que permite modificar la estructura y contenido		
+	
+(HTML) estructura y estilo (CSS)
+Contenido (HTML y CSS)
+
+Existen estilos de etiquetas, clases e Id
+

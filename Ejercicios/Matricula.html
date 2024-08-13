@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Matricula.css">
+    <title>Formulario de Matricula</title>
+</head>
+<body>
+    <div style="padding-left: 250px;">
+        <img src="complet.jpg" alt=""> <img src="tofo.jpg" alt="" style="position: absolute; padding-left: 100px; padding-top: 40px;">
+
+    </div>
+    <fieldset>
+<table border="1">
+    <legend><b>Ingrese su foto</b></legend>
+    <td><span>Imagen</span><input type="file"></td>
+</table>
+    </fieldset>
+
+<center>
+    <table border="2">
+         <h1>--HOJA DE MATRICULA--</h1>
+            <tr>
+                <td><input type="checkbox" value="Antiguo"> <span>Antiguo Ingreso</span></td>
+                     <td><input type="checkbox" value="Nuevo"> <span>Nuevo Ingreso</span></td>
+            </tr>
+            <tr>
+               <td><span>Fecha de Inscripcion</span><input type="date" placeholder="dd/mm/aaaa"></td>
+               <td><span>Fecha de Matricula</span><input type="date" placeholder="dd/mm/aaaa"></td>
+            </tr>
+    </table> 
+</center>
+&emsp;&emsp;&emsp;
+
+<fieldset>
+<legend><b> Datos Generales:</b></legend>
+<center>
+<table border="2">
+<tr>
+    <td>Nivel Educativo en el que desea Ingresar:</td>
+ 
+<td>
+    <input type="radio" value="Primer año"><span>Primer año</span> <br>
+    <input type="radio" value="Segundo Año"><span>Segundo año</span> <br>
+    <input type="radio" value="Tercer año"><span>Tercer año</span>
+</td>
+</tr>
+<tr>
+    <td>Opcion a la que desea aplicar:</td>
+    <td>
+    <input type="radio" name="General" id=""><span>General</span> <br>
+    <input type="radio" name="Desarrollo de Software" id=""><span>Tecnico Vocacional Administrativo Contable</span> <br>
+    <input type="radio" name="Atencion Primaria en Salud" id=""><span>Tecnico Vocacional en Desarrollo de Software</span> <br>
+    <input type="radio" name="Administracion Contable" id=""><span>Tecnico Vocacional Atencion Primaria en Salud </span>
+    </td>
+</tr>
+</table>
+</fieldset>
+</center>
+&emsp;&emsp;&emsp;
+<fieldset>
+<legend> <b>2.Datos Generales del Estudiante:</b></legend>
+<label>2.1 NIE:</label>
+<input type="number" placeholder="|Numeros sin espacios|">
+<label >&emsp; 2.2 Carnet de Minoridad</label>
+<input type="number" placeholder="|Numeros sin espacios|">
+<label >&emsp; 2.3 Dui del Estudiante</label>
+<input type="number" placeholder="|Numero de DUI|">
+&emsp;&emsp;&emsp; <br><br>
+<label>2.2 Apellidos del Estudiante:</label>
+<input type="text" placeholder="|Primer Apellido|">
+&emsp;&emsp;&emsp;
+<input type="text" placeholder="|Segundo Apellido|">
+&emsp;
+<label>Nombres del Estudiante:</label>
+<input type="text" placeholder="|Primer Nombre|">
+&emsp;
+<input type="text" placeholder="|Segundo Nombre|">
+<br><br>
+<label>2.3 Lugar y Fecha de Nacimiento:</label>
+<input type="text" placeholder="|Lugar donde fue asentado|">
+<input type="date" placeholder="dd/mm/aaaa">
+&emsp;
+<label>Edad:<input type="number" placeholder="|Años|"></label>
+<br><br>
+<label>2.4 Genero</label>
+<input type="radio" name="Masculino" id=""><span>Masculino</span>
+<input type="radio" name="Femenino" id=""><span>Femenino</span>
+<br><br>
+<label>2.5 Distancia en (Km) de la casa a la Institucion</label>
+<input type="number" placeholder="|KM|">
+&emsp;&emsp;
+<label>Estado Civil</label>
+<select name="estado_civil" id="">
+<option value="0">Seleccione</option>
+<option value="1">Soltero</option>
+<option value="2">Divorciado</option>
+<option value="3">Casado</option>
+<option value="4">Viudo</option>
+</select>
+</fieldset>
+
+&emsp;&emsp;&emsp;
+<fieldset>
+<legend><b>3.Datos de Residencia</b></legend>
+<label>3.1 Lugar donde reside actualmente:</label>
+<input type="text" placeholder="|Canton/Caserio/Colonia|"><label>Y/O</label>
+<input type="text" placeholder="|Avenida|"><label>-</label>
+<input type="text" placeholder="|Pasaje o Block|"><label>-</label>
+<input type="text" placeholder="|Poligono|"><label>-</label>
+<input type="number" placeholder="|N° Casa|"><label>-</label>
+<br><br>
+&emsp;<input type="text" placeholder="|Municipio|"><label>-</label>
+<input type="text" placeholder="|Departamento|">
+<br><br>
+<label>3.2 Telefono Fijo de Casa:</label>
+<input type="tel" placeholder="|TEL:Numeros sin espacios|">&emsp;
+<label>3.3 Repite Año:</label>
+<input type="radio" name="Si" id=""><span>Si</span>
+<input type="radio" name="No" id=""><span>No</span>&emsp;
+<label>3.4 En que año curso su ultimo grado de estudios:</label>
+<input type="text" placeholder="|Año|Solo Numeros">
+<br><br>
+<label>3.5 Estudio paravularia:</label>
+<input type="radio" name="Si" id=""><span>Si</span>
+<input type="radio" name="No" id=""><span>No</span>&emsp;
+<label>3.6 Medio de Transporte que utilizara:</label>
+<select name="medio_trasnporte" id="">
+    <option value="0">Seleccione</option>
+    <option value="1">Propio</option>
+    <option value="2">Familiar</option>
+    <option value="3">Publico</option>
+    <option value="4">Peatonal</option>
+</select>&emsp;
+<label>3.7 El estudiante se trasladara a la Institucion:</label>
+<input type="radio" name="Solo" id=""><span>Solo</span>
+<input type="radio" name="Lo vendra a dejar y a traer el encargado" id=""><span>Lo vendra a dejar y a traer el encargado</span>
+<br><br>
+<label>3.8 Nombre del centro Educativo o colegio de procedencia:</label>
+<input type="text" placeholder="|Nombre de Centro educativo o colegio|">
+</fieldset>
+&emsp;&emsp;&emsp;
+
+<fieldset>
+    <legend><b>4.Datos Sobre Situacion Familiar</b></legend>
+    <label>4.1 Numero de miembros de habitantes que habitan la casa donde vive el estudiante:</label>&emsp;
+    <input type="number" placeholder="|N° de Miembros|">
+    <br><br>
+    <label>El estudiante trabaja:</label>&emsp;
+    <input type="radio" name="si" id=""><span>Si</span>&emsp;
+    <input type="radio" name="si" id=""><span>No</span>&emsp;
+    <label>Donde:</label>
+    <input type="text" placeholder="|Nombre del lugar|">
+
+    <br><br>
+    <label>El estudiante Tiene Hijos:</label>&emsp;
+    <input type="radio" name="si" id=""><span>Si</span>&emsp;
+    <input type="radio" name="si" id=""><span>No</span>&emsp;
+    <label>Cuantos:</label>
+    <input type="text" placeholder="|Numero de Hijos|">
+
+    <br><br>
+    <label>4.2 El estudiante Vive con:</label>&emsp;
+    <br><br>
+    <input type="radio" name="solo madre" id=""><span>Solo madre</span>&emsp;
+    <input type="radio" name="solo padre" id=""><span>Solo padre</span>&emsp;
+    <br><br>
+    <input type="radio" name="ambos padres" id=""><span>Ambos padres</span>&emsp;
+    <input type="text" placeholder="Otros Especifique">
+
+    <br><br>
+    <label>4.3 De quien depende economicamente el estudiante:</label>&emsp;
+    <br><br>
+    <input type="radio" name="solo madre" id=""><span>Solo madre</span>&emsp;
+    <input type="radio" name="solo padre" id=""><span>Solo padre</span>&emsp;
+    <br><br>
+    <input type="radio" name="ambos padres" id=""><span>Ambos padres</span>&emsp;
+    <input type="text" placeholder="Otros Especifique">
+</fieldset>
+&emsp;&emsp;&emsp;
+
+<fieldset>
+    <legend><b>5. Otros</b></legend>
+    <label>5.1 Correo de google Classroom</label><input type="text" placeholder="|2343879|"><label>@clases.edu.sv</label>
+    <br><br>
+    <label>5.2 Telefono Celular del estudiante:</label><input type="tel" placeholder="|77847943|">
+    <br><br>
+    <label>5.3 ¿Haz recibido una computadora laptop del gobierno?</label>
+    <input type="radio" name="si" id=""><span>Si</span>&emsp;
+    <input type="radio" name="no" id=""><span>no</span>&emsp;
+    <label >Marca:</label>
+    <input type="text" placeholder="|Marca|">&emsp;
+    <label >Serie:</label>
+    <input type="text" placeholder="|Serie|">
+</fieldset>
+&emsp;&emsp;&emsp;
+
+<fieldset>
+<legend>6. Apellidos y Nombre del Padre</legend>
+<label>Primer Apellido</label><input type="text" placeholder="|Primer Apellido|">&emsp;
+<label>Segundo Apellido</label><input type="text" placeholder="|Segundo Apellido|">&emsp;
+<br><br>
+<label>Profesion u Oficio:</label><input type="text" placeholder="|Escribala Aqui|">&emsp;
+<label>DUI:</label><input type="number" placeholder="|Numeros sin espacios|">
+<br><br>
+<label>Nombre de la empresa donde trabaja:</label><input type="text" placeholder="|Nombre|">&emsp;
+<label>Tel Celular:</label><input type="number" placeholder="|Numeros sin espacios|">
+<br><br>
+
+<table border="3">
+    <td><input type="radio" name="Vive en la misma casa con nosotros" id=""><td><span>Vive en la misma casa con nosotros</span></td></td>
+    <td><input type="radio" name="Vive con otra familia" id=""><td><span>Vive con otra familia</span></td></td>
+    <td><input type="radio" name="Esta fuera del pais" id=""><td><span>Esta fuera del pais</span></td></td>
+    <td><input type="radio" name="Ya fallecio" id=""><td><span>Ya Fallecio</span></td></td>
+</table>
+<br><br>
+</fieldset>
+
+&emsp;&emsp;&emsp;
+<fieldset>
+<legend><b>7. Apellidos y Nombre de la Madre</b></legend>
+<label>Primer Apellido</label><input type="text" placeholder="|Primer Apellido|">&emsp;
+<label>Segundo Apellido</label><input type="text" placeholder="|Segundo Apellido|">&emsp;
+<br><br>
+<label>Profesion u Oficio:</label><input type="text" placeholder="|Escribala Aqui|">&emsp;
+<label>DUI:</label><input type="number" placeholder="|Numeros sin espacios|">
+<br><br>
+<label>Nombre de la empresa donde trabaja:</label><input type="text" placeholder="|Nombre|">&emsp;
+<label>Tel Celular:</label><input type="number" placeholder="|Numeros sin espacios|">
+<br><br>
+
+<table border="3">
+    <td><input type="radio" name="Vive en la misma casa con nosotros" id=""><td><span>Vive en la misma casa con nosotros</span></td></td>
+    <td><input type="radio" name="Vive con otra familia" id=""><td><span>Vive con otra familia</span></td></td>
+    <td><input type="radio" name="Esta fuera del pais" id=""><td><span>Esta fuera del pais</span></td></td>
+    <td><input type="radio" name="Ya fallecio" id=""><td><span>Ya Fallecio</span></td></td>
+</table>
+<br><br>
+</fieldset>
+
+&emsp;&emsp;&emsp;
+
+<fieldset>
+<legend><b>8. Apellidos y Nombre del Responsable para retirar documentacion exclusivamente</b></legend>
+<label>Primer Apellido</label><input type="text" placeholder="|Primer Apellido|">&emsp;
+<label>Segundo Apellido</label><input type="text" placeholder="|Segundo Apellido|">&emsp;
+<br><br>
+<label>Profesion u Oficio:</label><input type="text" placeholder="|Escribala Aqui|">&emsp;
+<label>DUI:</label><input type="number" placeholder="|Numeros sin espacios|">
+<br><br>
+<label>Nombre de la empresa donde trabaja:</label><input type="text" placeholder="|Nombre|">&emsp;
+<label>Tel Celular:</label><input type="number" placeholder="|Numeros sin espacios|">
+<br><br>
+
+<table border="3">
+    <td><input type="radio" name="Vive en la misma casa con nosotros" id=""><td><span>Vive en la misma casa con nosotros</span></td></td>
+    <td><input type="radio" name="Vive con otra familia" id=""><td><span>Vive con otra familia</span></td></td>
+    <td><input type="radio" name="Esta fuera del pais" id=""><td><span>Esta fuera del pais</span></td></td>
+    <td><input type="radio" name="Ya fallecio" id=""><td><span>Ya Fallecio</span></td></td>
+</table>
+<br>
+
+<label>Parentesco con el estudiante del responsable:</label>&emsp;<input type="text" placeholder="|Escriba aqui su respuesta |">
+</fieldset>
+&emsp;&emsp;&emsp;
+
+<fieldset>
+    <legend><b>9. Datos de Salud del (La) Estudiante</b></legend>
+    <label>9.1 Si el estudiante padece de alguna enfermedad o alergia Escribala:</label>&emsp;
+    <input type="text" placeholder="|escriba aqui lo que padece el estudiante|">
+    <br><br>
+    <label>9.2 Si el estudiante tiene medicamentos prescritos de caracter permanente escribalos:</label>&emsp;
+    <input type="text" placeholder="|Escriba aqui los medicamentos|">
+    <br><br>
+    <label>9.3 En caso de emergencia llamar a nombre de:</label>&emsp;
+    <input type="text" placeholder="|Nombre a quien llamar|">&emsp;
+    <label>Tel:</label>&emsp;
+    <input type="tel" placeholder="|Ingrese el numero de Tel|">
+</fieldset>
+&emsp;&emsp;&emsp;
+
+<table border="2">
+    <td><label>Firmo conforme(padre o madre) y/o responsable de familia</label></td><td><input type="text" placeholder="|Firma|"></td>
+    <td><label>Firma del estudiante</label></td><td><input type="text" placeholder="|Firma|"></td>
+</table>
+&emsp;&emsp;&emsp;
+
+<fieldset>
+    <legend> <b>10. Observaciones de estricto cumplimiento para registro academico </b></legend>
+    <h3>En caso que el estudiante se retire de la Institución, la documentación únicamente la podrá retirar, la 
+        persona que ha quedado asignada como responsable en la Hoja de Matrícula del año en curso; no se le 
+        podrá entregar ni al estudiante ni a ninguna otra persona más, aunque sea su padre o su madre.</h3>
+</fieldset>
+&emsp;&emsp;&emsp;
+
+<fieldset>
+    <legend> <b>Enviar </b></legend><br>
+    <input type="submit" value="Enviar">
+    <label>|O|</label>
+    <input type="reset" value="Cancelar">
+</fieldset>
+
+
+</body>
+</html>
